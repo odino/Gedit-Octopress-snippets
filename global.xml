@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets>
+  <snippet>
+    <text><![CDATA[{% blockquote %}
+  $0
+{% endblockquote %}]]></text>
+    <tag>b</tag>
+    <description>blockquote</description>
+    <accelerator><![CDATA[<Shift>b]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[\`\`\` $1
+$0
+\`\`\`]]></text>
+    <tag>c</tag>
+    <description>code</description>
+    <accelerator><![CDATA[<Shift>c]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[{% footnotes %}
+  {% fn $0 %}
+{% endfootnotes %}]]></text>
+    <tag>foot</tag>
+    <description>foot</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[{% img $1 /images/$0 %}]]></text>
+    <tag>i</tag>
+    <description>image</description>
+    <accelerator><![CDATA[<Shift>i]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[<!-- more -->]]></text>
+    <tag>m</tag>
+    <description>more</description>
+    <accelerator><![CDATA[<Shift>m]]></accelerator>
+  </snippet>
+  <snippet>
+    <text><![CDATA[{% render_partial /series/$0.markdown %}]]></text>
+    <tag>par</tag>
+    <description>partial</description>
+  </snippet>
+  <snippet>
+    <text><![CDATA[{% fn_ref $0 %}]]></text>
+    <tag>ref</tag>
+    <description>ref</description>
+  </snippet>
+</snippets>
